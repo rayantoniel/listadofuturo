@@ -75,8 +75,8 @@
     border: none;
     outline: none;
     padding: 10px 10px;
-    width: 400px;
-    min-width: 400px;
+    width: 80vw;
+    max-width: 400px;
     height: 50px;
 
   }
@@ -84,9 +84,10 @@
   textarea{
     padding: 5px;
     background-color: #00000017;
-    width: 400px;
-    min-width: 400px;
-    min-height: 100px;
+    width: 80vw;
+    max-width: 400px;
+    border: none;
+    outline: none;
   }
 
   
@@ -142,10 +143,3 @@
     width: 100%;
   }
 
-  @media screen and (max-width: 912px){
-  
-    .container{
-      display: none;
-   }
-
-  }
