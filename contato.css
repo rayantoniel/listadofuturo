@@ -1,0 +1,151 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #1693a5;
+    color: #fff;
+    
+  }
+
+  header a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 25px;
+    
+  }
+  
+ 
+
+  h1{
+    color: #1693a5;
+    margin-bottom: 15px;
+    font-size: 2.8em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #formulario{
+    width: max-content;
+    text-align: center;
+   
+  }
+
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .icon{
+    border-radius: 50%;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 5px;
+    border: 2px solid #00000031;
+    color: #00000071;
+  }
+  
+  .container input{
+    background-color: #00000017;
+
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    width: 400px;
+    min-width: 400px;
+    height: 50px;
+
+  }
+
+  textarea{
+    padding: 5px;
+    background-color: #00000017;
+    width: 400px;
+    min-width: 400px;
+    min-height: 100px;
+  }
+
+  
+
+  .iconEmail{
+    background-color: #0000002c;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+
+  #senha{
+    padding: 12px;
+  }
+
+  form{
+    margin-top: 10px;
+  }
+
+  form div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  
+
+#formulario div p{
+  margin-top: 20px;
+  color: #0000009c;
+}
+
+    form a{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #formulario button{
+    margin: auto;
+    background-color: #1693a5;
+    color: #fff;
+
+    padding: 11px 50px;
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 912px){
+  
+    .container{
+      display: none;
+   }
+
+  }
